@@ -8,9 +8,8 @@ int main() {
 	time_t t;
 	srand((unsigned)time(&t));
 
-	for( int i = 0; i < 21; i++){
+	for( int i = 0; i < 50; i++){
 	a = rand() % 21;
-	if (a==0) break;
 	b = r[rand() % 2];
 	printf("%d x %d \n", b, a);
 	scanf("%d", &ans);
