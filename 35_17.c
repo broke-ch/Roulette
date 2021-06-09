@@ -8,13 +8,13 @@ int main() {
 	time_t t;
 	srand((unsigned)time(&t));
 
-	for( int i = 0; i < 50; i++){
-	a = rand() % 21;
-	b = r[rand() % 2];
-	printf("%d x %d \n", b, a);
-	scanf("%d", &ans);
-	if(ans != a*b){
-		printf("wrong\n");
+	while(1){
+		a = rand() % 21;
+		b = r[rand() % 2];
+		printf("%d x %d \n", b, a);
+		scanf("%d", &ans);
+		if(ans != a*b){
+			printf("wrong\n");
+		}
 	}
-}
 }
